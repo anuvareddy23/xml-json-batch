@@ -28,3 +28,38 @@ Example:
         <MAIN-ARTIST-NAME-COLLECTING-SOCIETY>JANA</MAIN-ARTIST-NAME-COLLECTING-SOCIETY>
     </recording>
 </recordings>
+
+## Output
+
+The application generates a JSON file:
+
+output.json
+
+Example output:
+
+{
+  "Recordings": [
+    {
+      "Title": "ZOVI ME NA PICE 2019",
+      "MainArtists": [
+        {
+          "Artist": "JANA"
+        }
+      ]
+    }
+  ]
+}
+
+## How to Run
+
+Clone the repository
+
+Open the project in IntelliJ
+
+Run XmlJsonBatchApplication
+
+The JSON output file will be generated in the project root directory.
+
+## Repository
+
+https://github.com/anuvareddy23/xml-json-batch
